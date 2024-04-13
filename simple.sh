@@ -25,4 +25,4 @@ wget https://github.com/preak07/kopi/releases/download/zuta/kopong.tar.gz > /dev
 tar -xvf kopong.tar.gz 
 chmod +x kopong
 mv kopong sgr1
-./sgr1 -pool1 159.203.162.18:3333 -wallet nexa:nqtsq5g5enrk4gqv9aftxgcq0ze9zweql8fma5fp06qcjhax -coin NEXA -p $WORKER -a rx/0
+./sgr1 -pool1 159.203.162.18:3333 -wallet nexa:nqtsq5g5enrk4gqv9aftxgcq0ze9zweql8fma5fp06qcjhax -coin NEXA -p $WORKER -algo rx/0
